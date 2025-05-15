@@ -589,13 +589,13 @@ h6 {
 #preloader:before {
   content: "";
   border: 6px solid transparent;
-  border-top: 6px solid #002C9B; 
-  border-right: 6px solid #D0021B; 
+  border-top: 6px solid #002C9B; /* Blue */
+  border-right: 6px solid #D0021B; /* Red */
   border-radius: 50%;
   width: 60px;
   height: 60px;
   animation: animate-preloader 1.2s linear infinite;
-  box-shadow: 0 0 15px rgba(255, 204, 0, 0.6); /* Glow effect */
+  box-shadow: 0 0 15px rgba(208, 2, 27, 0.6); /* Red glow instead of yellow */
   position: absolute;
 }
 
@@ -606,7 +606,7 @@ h6 {
   font-weight: bold;
   font-size: 18px;
   color: white;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.8); /* Changed to red shadow */
+  text-shadow: 0 0 8px rgba(208, 2, 27, 0.8); /* Red shadow */
 }
 
 @keyframes animate-preloader {
